@@ -1,0 +1,5 @@
+U:\SIO 2 2017-2018\SLAM 4\TPPOOHeritage\TPPOOHeritage-Exercice3\TPPOOHeritage-Exercice3\obj\x86\Debug\TPPOOHeritage-Exercice3.csprojResolveAssemblyReference.cache
+U:\SIO 2 2017-2018\SLAM 4\TPPOOHeritage\TPPOOHeritage-Exercice3\TPPOOHeritage-Exercice3\bin\Debug\TPPOOHeritage-Exercice3.exe
+U:\SIO 2 2017-2018\SLAM 4\TPPOOHeritage\TPPOOHeritage-Exercice3\TPPOOHeritage-Exercice3\bin\Debug\TPPOOHeritage-Exercice3.pdb
+U:\SIO 2 2017-2018\SLAM 4\TPPOOHeritage\TPPOOHeritage-Exercice3\TPPOOHeritage-Exercice3\obj\x86\Debug\TPPOOHeritage-Exercice3.exe
+U:\SIO 2 2017-2018\SLAM 4\TPPOOHeritage\TPPOOHeritage-Exercice3\TPPOOHeritage-Exercice3\obj\x86\Debug\TPPOOHeritage-Exercice3.pdb

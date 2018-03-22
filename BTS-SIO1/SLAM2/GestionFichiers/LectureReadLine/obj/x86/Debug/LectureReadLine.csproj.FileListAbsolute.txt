@@ -1,0 +1,5 @@
+U:\Slam2\GestionFichiers\LectureReadLine\bin\Debug\LectureReadLine.exe
+U:\Slam2\GestionFichiers\LectureReadLine\bin\Debug\LectureReadLine.pdb
+U:\Slam2\GestionFichiers\LectureReadLine\obj\x86\Debug\LectureReadLine.exe
+U:\Slam2\GestionFichiers\LectureReadLine\obj\x86\Debug\LectureReadLine.pdb
+U:\Slam2\GestionFichiers\LectureReadLine\obj\x86\Debug\LectureReadLine.csprojResolveAssemblyReference.cache

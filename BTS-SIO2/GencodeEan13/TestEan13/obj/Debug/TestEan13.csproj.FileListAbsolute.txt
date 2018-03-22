@@ -1,0 +1,14 @@
+E:\GencodeEan13\TestEan13\obj\Debug\TestEan13.csprojResolveAssemblyReference.cache
+E:\GencodeEan13\TestEan13\bin\Debug\TestEan13.dll
+E:\GencodeEan13\TestEan13\bin\Debug\TestEan13.pdb
+E:\GencodeEan13\TestEan13\bin\Debug\GencodeEan13.dll
+E:\GencodeEan13\TestEan13\bin\Debug\GencodeEan13.pdb
+E:\GencodeEan13\TestEan13\obj\Debug\TestEan13.dll
+E:\GencodeEan13\TestEan13\obj\Debug\TestEan13.pdb
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\bin\Debug\TestEan13.dll
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\bin\Debug\TestEan13.pdb
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\bin\Debug\GencodeEan13.dll
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\bin\Debug\GencodeEan13.pdb
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\obj\Debug\TestEan13.csprojResolveAssemblyReference.cache
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\obj\Debug\TestEan13.dll
+U:\SIO 2 2017-2018\SLAM 4\GencodeEan13\TestEan13\obj\Debug\TestEan13.pdb

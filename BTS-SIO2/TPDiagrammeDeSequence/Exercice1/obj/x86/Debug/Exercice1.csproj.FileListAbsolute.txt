@@ -1,0 +1,6 @@
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\Exercice1\bin\Debug\Exercice1.exe
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\Exercice1\bin\Debug\Exercice1.pdb
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\Exercice1\obj\x86\Debug\Exercice1.exe
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\Exercice1\obj\x86\Debug\Exercice1.pdb
+H:\BTS SIO 2\SLAM 4\TPDiagrammeDeSequence\Exercice1\obj\x86\Debug\Exercice1.exe
+H:\BTS SIO 2\SLAM 4\TPDiagrammeDeSequence\Exercice1\obj\x86\Debug\Exercice1.pdb

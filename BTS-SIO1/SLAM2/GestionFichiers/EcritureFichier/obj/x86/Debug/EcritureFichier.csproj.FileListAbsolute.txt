@@ -1,0 +1,4 @@
+U:\Slam2\GestionFichiers\EcritureFichier\bin\Debug\EcritureFichier.exe
+U:\Slam2\GestionFichiers\EcritureFichier\bin\Debug\EcritureFichier.pdb
+U:\Slam2\GestionFichiers\EcritureFichier\obj\x86\Debug\EcritureFichier.exe
+U:\Slam2\GestionFichiers\EcritureFichier\obj\x86\Debug\EcritureFichier.pdb

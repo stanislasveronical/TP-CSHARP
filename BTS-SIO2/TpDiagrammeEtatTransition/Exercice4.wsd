@@ -1,0 +1,36 @@
+@startuml Fenetre
+
+[*] -> InsereCarte : etat initial
+
+state Distribuer {
+    InsereCarte --> CarteInvalide
+    InsereCarte --> DemandeSaisirCode
+    DemandeSaisirCode --> SaisirCode
+    SaisirCode --> UneFois
+    UneFois --> DemandeSaisirCode
+    SaisirCode --> DeuxFois
+    DeuxFois --> DemandeSaisirCode
+    SaisirCode --> TroisFois
+    TroisFois --> DemandeSaisirCode
+    state CodeErrone {
+        state UneFois{
+        }
+        state DeuxFois{
+        }
+        state TroisFois{
+        }    
+    }
+    SaisirCode-->AfficherListeMontants
+    AfficherListeMontants --> ChoisirMontant
+    TroisFois --> CarteAvale
+    RendreCarte --> DelivrerBillets
+    ChoisirMontant --> RendreCarte
+    CarteInvalide --> RendreCarte
+}
+
+
+RendreCarte -> [*] : etat final
+CarteAvale -> [*] : etat final
+DelivrerBillets -> [*] : etat final
+
+@enduml

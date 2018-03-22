@@ -1,0 +1,5 @@
+U:\SIO 2 2017-2018\SLAM 4\DS2ConcessionAutomobile\DS2ConcessionAutomobile\obj\x86\Debug\DS2ConcessionAutomobile.csprojResolveAssemblyReference.cache
+U:\SIO 2 2017-2018\SLAM 4\DS2ConcessionAutomobile\DS2ConcessionAutomobile\bin\Debug\DS2ConcessionAutomobile.exe
+U:\SIO 2 2017-2018\SLAM 4\DS2ConcessionAutomobile\DS2ConcessionAutomobile\bin\Debug\DS2ConcessionAutomobile.pdb
+U:\SIO 2 2017-2018\SLAM 4\DS2ConcessionAutomobile\DS2ConcessionAutomobile\obj\x86\Debug\DS2ConcessionAutomobile.exe
+U:\SIO 2 2017-2018\SLAM 4\DS2ConcessionAutomobile\DS2ConcessionAutomobile\obj\x86\Debug\DS2ConcessionAutomobile.pdb

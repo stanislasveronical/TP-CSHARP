@@ -1,0 +1,5 @@
+U:\SIO 2 2017-2018\SLAM 4\TPDelegues\TPDelegues\bin\Debug\TPDelegues.exe
+U:\SIO 2 2017-2018\SLAM 4\TPDelegues\TPDelegues\bin\Debug\TPDelegues.pdb
+U:\SIO 2 2017-2018\SLAM 4\TPDelegues\TPDelegues\obj\x86\Debug\TPDelegues.exe
+U:\SIO 2 2017-2018\SLAM 4\TPDelegues\TPDelegues\obj\x86\Debug\TPDelegues.pdb
+U:\SIO 2 2017-2018\SLAM 4\TPDelegues\TPDelegues\obj\x86\Debug\TPDelegues.csprojResolveAssemblyReference.cache

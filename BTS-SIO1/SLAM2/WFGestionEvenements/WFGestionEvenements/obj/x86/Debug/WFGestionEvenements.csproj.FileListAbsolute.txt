@@ -1,0 +1,7 @@
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\bin\Debug\WFGestionEvenements.exe
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\bin\Debug\WFGestionEvenements.pdb
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\obj\x86\Debug\WFGestionEvenements.FExercice1.resources
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\obj\x86\Debug\WFGestionEvenements.Properties.Resources.resources
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\obj\x86\Debug\WFGestionEvenements.csproj.GenerateResource.Cache
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\obj\x86\Debug\WFGestionEvenements.exe
+U:\Slam2\WFGestionEvenements\WFGestionEvenements\obj\x86\Debug\WFGestionEvenements.pdb

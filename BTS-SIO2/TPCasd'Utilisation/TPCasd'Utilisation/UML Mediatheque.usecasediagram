@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="3ab6f862-ffaf-4616-9911-3f61923f1aea" name="UML Mediatheque" linkedPackageId="cdd25662-9927-4a46-b4c7-6316b6a2ef70" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="5454b001-b02b-4173-a46a-671797acc90c">
+      <profileInstance Id="f6a592af-947f-4e97-a02f-7c0a5930bf41" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6f5305f7-ca62-43bd-96d2-432ef075acdf">
+      <profileInstance Id="39afb4bf-13fc-497f-8e3c-875c79083c76" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="799e56cc-4e5e-4640-aa1e-8da70b2847a5" name="Mediatheque" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="197c0168-cc09-461c-8ace-111bf018ab22" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+  </packagedElements>
+  <package Id="cdd25662-9927-4a46-b4c7-6316b6a2ef70" name="TPCasd'Utilisation">
+    <elementDefinition Id="9cb30085-e2dc-417e-b445-478051f1a8af" />
+  </package>
+</useCaseModelRoot>

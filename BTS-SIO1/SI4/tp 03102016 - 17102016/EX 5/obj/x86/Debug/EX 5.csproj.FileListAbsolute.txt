@@ -1,0 +1,10 @@
+U:\si4\tp 03102016\EX 5\bin\Debug\EX 5.exe
+U:\si4\tp 03102016\EX 5\bin\Debug\EX 5.pdb
+U:\si4\tp 03102016\EX 5\obj\x86\Debug\EX 5.exe
+U:\si4\tp 03102016\EX 5\obj\x86\Debug\EX 5.pdb
+U:\si4\tp 03102016 - 17102016\EX 5\obj\x86\Debug\EX 5.exe
+U:\si4\tp 03102016 - 17102016\EX 5\obj\x86\Debug\EX 5.pdb
+U:\si4\tp 03102016 - 17102016\EX 5\bin\Debug\EX 5.exe
+U:\si4\tp 03102016 - 17102016\EX 5\bin\Debug\EX 5.pdb
+U:\SIO 1 2016-2017\SI 4\tp 03102016 - 17102016\EX 5\obj\x86\Debug\EX 5.exe
+U:\SIO 1 2016-2017\SI 4\tp 03102016 - 17102016\EX 5\obj\x86\Debug\EX 5.pdb

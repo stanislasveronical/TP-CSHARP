@@ -1,0 +1,17 @@
+H:\SLAM 2\Fiche2\Fiche2\bin\Debug\Fiche2.exe
+H:\SLAM 2\Fiche2\Fiche2\bin\Debug\Fiche2.pdb
+H:\SLAM 2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.Form1.resources
+H:\SLAM 2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.Properties.Resources.resources
+H:\SLAM 2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.csproj.GenerateResource.Cache
+H:\SLAM 2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.exe
+H:\SLAM 2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.pdb
+U:\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.exe
+U:\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.pdb
+U:\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.Form1.resources
+U:\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.Properties.Resources.resources
+U:\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.csproj.GenerateResource.Cache
+U:\Slam2\Fiche2\Fiche2\bin\Debug\Fiche2.exe
+U:\Slam2\Fiche2\Fiche2\bin\Debug\Fiche2.pdb
+U:\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.csprojResolveAssemblyReference.cache
+U:\SIO 1 2016-2017\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.exe
+U:\SIO 1 2016-2017\Slam2\Fiche2\Fiche2\obj\x86\Debug\Fiche2.pdb

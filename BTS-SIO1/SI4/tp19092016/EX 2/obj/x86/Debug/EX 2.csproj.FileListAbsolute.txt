@@ -1,0 +1,6 @@
+U:\tp19092016\EX 2\bin\Debug\EX 2.exe
+U:\tp19092016\EX 2\bin\Debug\EX 2.pdb
+U:\tp19092016\EX 2\obj\x86\Debug\EX 2.exe
+U:\tp19092016\EX 2\obj\x86\Debug\EX 2.pdb
+U:\si4\tp19092016\EX 2\obj\x86\Debug\EX 2.exe
+U:\si4\tp19092016\EX 2\obj\x86\Debug\EX 2.pdb

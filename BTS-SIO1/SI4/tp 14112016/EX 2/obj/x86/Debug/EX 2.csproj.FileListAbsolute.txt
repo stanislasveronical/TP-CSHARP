@@ -1,0 +1,20 @@
+U:\si4\TP 4\EX 2\bin\Debug\EX 2.exe
+U:\si4\TP 4\EX 2\bin\Debug\EX 2.pdb
+U:\si4\TP 4\EX 2\obj\x86\Debug\EX 2.exe
+U:\si4\TP 4\EX 2\obj\x86\Debug\EX 2.pdb
+G:\SI 4\Tp_prog\tp4 14112016\EX 2\bin\Debug\EX 2.exe
+G:\SI 4\Tp_prog\tp4 14112016\EX 2\bin\Debug\EX 2.pdb
+G:\SI 4\Tp_prog\tp4 14112016\EX 2\obj\x86\Debug\EX 2.exe
+G:\SI 4\Tp_prog\tp4 14112016\EX 2\obj\x86\Debug\EX 2.pdb
+H:\SI 4\Tp_prog\tp 14112016\EX 2\obj\x86\Debug\EX 2.exe
+H:\SI 4\Tp_prog\tp 14112016\EX 2\obj\x86\Debug\EX 2.pdb
+H:\SI 4\Tp_prog\tp 14112016\EX 2\bin\Debug\EX 2.exe
+H:\SI 4\Tp_prog\tp 14112016\EX 2\bin\Debug\EX 2.pdb
+G:\SI 4\Tp_prog\tp 14112016\EX 2\obj\x86\Debug\EX 2.exe
+G:\SI 4\Tp_prog\tp 14112016\EX 2\obj\x86\Debug\EX 2.pdb
+G:\SI 4\Tp_prog\tp 14112016\EX 2\bin\Debug\EX 2.exe
+G:\SI 4\Tp_prog\tp 14112016\EX 2\bin\Debug\EX 2.pdb
+U:\si4\tp 14112016\EX 2\obj\x86\Debug\EX 2.exe
+U:\si4\tp 14112016\EX 2\obj\x86\Debug\EX 2.pdb
+U:\si4\tp 14112016\EX 2\bin\Debug\EX 2.exe
+U:\si4\tp 14112016\EX 2\bin\Debug\EX 2.pdb

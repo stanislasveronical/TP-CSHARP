@@ -1,0 +1,11 @@
+U:\Slam2\AccesMySql\AccesMySql\bin\Debug\AccesMySql.exe
+U:\Slam2\AccesMySql\AccesMySql\bin\Debug\AccesMySql.pdb
+U:\Slam2\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.exe
+U:\Slam2\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.pdb
+C:\Users\vstanislas\Desktop\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.exe
+C:\Users\vstanislas\Desktop\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.pdb
+C:\Users\vstanislas\Desktop\AccesMySql\AccesMySql\bin\Debug\AccesMySql.exe
+C:\Users\vstanislas\Desktop\AccesMySql\AccesMySql\bin\Debug\AccesMySql.pdb
+C:\Users\vstanislas\Desktop\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.csprojResolveAssemblyReference.cache
+U:\SIO 1 2016-2017\Slam2\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.exe
+U:\SIO 1 2016-2017\Slam2\AccesMySql\AccesMySql\obj\x86\Debug\AccesMySql.pdb

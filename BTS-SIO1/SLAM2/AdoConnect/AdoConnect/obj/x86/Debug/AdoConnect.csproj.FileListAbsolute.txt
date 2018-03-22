@@ -1,0 +1,12 @@
+C:\Users\vstanislas\Desktop\AdoConnect\AdoConnect\bin\Debug\AdoConnect.exe
+C:\Users\vstanislas\Desktop\AdoConnect\AdoConnect\bin\Debug\AdoConnect.pdb
+C:\Users\vstanislas\Desktop\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.exe
+C:\Users\vstanislas\Desktop\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.pdb
+C:\Users\vstanislas\Desktop\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.csprojResolveAssemblyReference.cache
+U:\Slam2\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.exe
+U:\Slam2\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.pdb
+U:\Slam2\AdoConnect\AdoConnect\bin\Debug\AdoConnect.exe
+U:\Slam2\AdoConnect\AdoConnect\bin\Debug\AdoConnect.pdb
+U:\Slam2\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.csprojResolveAssemblyReference.cache
+U:\SIO 1 2016-2017\Slam2\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.exe
+U:\SIO 1 2016-2017\Slam2\AdoConnect\AdoConnect\obj\x86\Debug\AdoConnect.pdb

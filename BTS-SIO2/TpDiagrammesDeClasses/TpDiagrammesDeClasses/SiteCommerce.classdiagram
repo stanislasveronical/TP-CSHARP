@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="0c8cd9e0-3d98-4bd8-8613-17e8224669b7" name="SiteCommerce" linkedPackageId="d3ec12dc-0b41-4635-9912-d50f072b6692" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="c033a523-4b38-4b5c-a2f0-b24d6fada9ae">
+      <profileInstance Id="bbfc162f-cfd4-409d-bb76-1c712bcee19f" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="6499a3d7-c469-43dc-87cc-ffd0cf5d183a">
+      <profileInstance Id="5334657f-714d-4d0b-ae10-b24f2ef95ec9" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="cc04fce2-8ce0-438d-96e6-4f75e3084c93" name="Client" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="aa617d46-a205-487e-893e-f04fd70e6b35" />
+        <ownedOperationsInternal>
+          <operation Id="aeafc85f-59f0-4710-a15c-59f32f1fd1c3" name="Valider" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="a1ddb876-1119-48f6-b1c0-306859a9b9ab" />
+          </operation>
+          <operation Id="9633094e-1fa4-4d2a-9e83-74fa18c97557" name="Annuler" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3aa897d8-e3b7-4f70-b839-c7f15a7cca2f" />
+          </operation>
+          <operation Id="5cb94b7f-da6a-49da-82a2-eb5204ea58af" name="Reductions" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="18db1186-8793-4ee7-aedd-3a9cb89285ef" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="c2c3bef6-2904-48e5-9790-f5556601e7ed" name="Produits" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a2fb2b06-0462-4018-8abf-f573d71ec553" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="4afb0930-2677-4ba3-9545-e1a3faddbf0e" name="PanierVirtuel" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="9732433c-afe3-44cf-9919-7153e368d2fd" />
+        <ownedAttributesInternal>
+          <property Id="adbb6f70-8c1b-4c6e-ad45-03563c87c6c1" name="ProduitsAAcheter" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="ba64a941-66c1-4353-8ca5-6d4fa666105b" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="0f23f43d-2405-4018-98b7-f1af6afb6405" name="Ajouter" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="dce0bfe6-3ebe-4236-a631-993c1b7912ca" />
+          </operation>
+          <operation Id="d9994bd8-280c-45d1-8459-9cc5a8388f8e" name="Supprimer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="be7ba4c1-cfcb-487f-a034-d9e6ca1f9fc7" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8e855424-fe45-4741-94e8-d6cbb856088c" name="CarteDeCredit" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d29e2cce-ac8f-4db1-8256-2c60e811ebd5" />
+        <ownedAttributesInternal>
+          <property Id="17b0d1e2-9731-48f7-89ed-8a06398e63ab" name="paiement" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="50e3569e-e020-45df-9792-a917981ef8b9" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="94c66ce4-5c9e-4393-8603-719b9eb23177" name="Systeme" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="2d852b31-55f9-40ff-aa84-9d58e2d4b2e3" />
+        <ownedAttributesInternal>
+          <property Id="33c3520e-cf18-4828-8287-b9797fe25323" name="informationsCarte" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="713f6dd2-96c6-4872-aa5d-65bd71424dda" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="d3ec12dc-0b41-4635-9912-d50f072b6692" name="TpDiagrammesDeClasses">
+    <elementDefinition Id="434827e0-beda-4df0-932d-27fb654b0747" />
+  </package>
+</logicalClassDesignerModel>

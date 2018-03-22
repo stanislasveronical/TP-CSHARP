@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UML Mediatheque">
+  <useCaseModelRootMoniker Id="3ab6f862-ffaf-4616-9911-3f61923f1aea" />
+  <nestedChildShapes>
+    <SubsystemShape Id="789098ce-7973-4e70-97e2-2829603e2706" absoluteBounds="3.125, 0.75, 3.625, 3" customColor="White">
+      <subsystemMoniker Id="799e56cc-4e5e-4640-aa1e-8da70b2847a5" LastKnownName="Mediatheque" />
+    </SubsystemShape>
+  </nestedChildShapes>
+</useCaseDiagram>

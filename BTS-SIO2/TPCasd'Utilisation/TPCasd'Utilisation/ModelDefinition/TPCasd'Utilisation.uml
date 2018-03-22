@@ -1,0 +1,968 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="9cb30085-e2dc-417e-b445-478051f1a8af"
+  name="TPCasd'Utilisation" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <ownedCommentsInternal>
+    <comment
+      Id="dbcd8195-74e2-45fb-8ddc-29d733e1f9fd" />
+  </ownedCommentsInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="2e8ba579-b50e-43d5-b86a-e23d3b323ab8"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="e4850513-518f-4a72-a7b4-be8a350055b7"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Servir d'Essence"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="b7b861d3-1dc0-4f2c-87db-7c8e9866c78a"
+              LastKnownName="Prendre de l'Essence"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a51904b2-8ebd-496e-a24f-5c9de1b4fe66"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="38707176-62eb-4a0a-b18f-3c6b69673e6b"
+                  name="Servir d'Essence"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="b48a7eab-89d2-4732-892a-25e9bc63db25"
+        name="Station-Service"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b7b861d3-1dc0-4f2c-87db-7c8e9866c78a"
+        name="Prendre de l'Essence"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="1caa5138-8ebb-4356-a7a3-806606e85787">
+            <useCaseMoniker
+              Id="7b71bcf4-8bd6-4f67-896f-f87669ed47ce"
+              LastKnownName="Prendre pistolet à une pompe"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="b48a7eab-89d2-4732-892a-25e9bc63db25"
+            LastKnownName="Station-Service"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7b71bcf4-8bd6-4f67-896f-f87669ed47ce"
+        name="Prendre pistolet à une pompe"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="3b66d6d1-e2f7-497c-9782-ce2a926461c5">
+            <useCaseMoniker
+              Id="8639eb31-24c0-4087-a3e9-a7c3279e8707"
+              LastKnownName="Appuyer sur la gâchette"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="b48a7eab-89d2-4732-892a-25e9bc63db25"
+            LastKnownName="Station-Service"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8639eb31-24c0-4087-a3e9-a7c3279e8707"
+        name="Appuyer sur la gâchette"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b48a7eab-89d2-4732-892a-25e9bc63db25"
+            LastKnownName="Station-Service"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f3956f80-03fd-4735-b268-8f342098b7e7"
+        name="Gérant"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f50bac56-156a-4fda-9c01-9106f90dafb0"
+            isDerived="false"
+            sourceEndRoleName="Gérant"
+            targetEndRoleName="Utilisation SI - OperationGestion"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="4c0075c2-04b2-49fe-aa99-00d6a4500a51"
+              LastKnownName="Utilisation SI - OperationGestion"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a2812c0e-cbb4-4eed-9192-3d4f21362622"
+                  name="Gérant"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="691d6116-b1bc-4c2b-ac6e-4ebcedf51058"
+                  name="Utilisation SI - OperationGestion"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="4c0075c2-04b2-49fe-aa99-00d6a4500a51"
+        name="Utilisation SI - OperationGestion"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b48a7eab-89d2-4732-892a-25e9bc63db25"
+            LastKnownName="Station-Service"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="834913bf-eab2-4ac7-9317-5a84f3525bc9"
+        name="Mecanicien"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="8a95efd5-130a-4656-b7fb-573fd9067e52"
+            isDerived="false"
+            sourceEndRoleName="Mecanicien"
+            targetEndRoleName="S'occuper de l'Atelier d'Entrtien"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="400fb1e9-9f5b-40af-b177-e9e0ef5eee50"
+              LastKnownName="S'occuper de l'Atelier d'Entrtien"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="396e41ce-391b-4bd3-85d8-e71fcc6eb4da"
+                  name="Mecanicien"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9356d01a-1733-413a-abbc-9880430d83c5"
+                  name="S'occuper de l'Atelier d'Entrtien"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="481c104a-8f96-4ca6-a956-db976f27e8ed"
+        name="Pompiste"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="cc8c9589-1d21-49f7-9e8b-ddb21052e45e"
+        name="Station-Service"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="5ea9f887-0167-49d9-b6c9-1b49ee60e7ae"
+        name="Station-Service"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f3d8cfac-075b-4f48-b110-8e5b3df4688b"
+        name="Gérant"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="94ee7588-c4de-444e-9718-c1b731fa35b2"
+        name="Chef d'Atelier"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="b14cf1b9-8ab5-464c-bb43-5da0925ab08e"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="834913bf-eab2-4ac7-9317-5a84f3525bc9"
+              LastKnownName="Mecanicien"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </generalization>
+          <generalization
+            Id="347e030b-66b5-4fd0-adee-095584b19bfd"
+            isSubstitutable="false">
+            <actorMoniker
+              Id="f3956f80-03fd-4735-b268-8f342098b7e7"
+              LastKnownName="Gérant"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="400fb1e9-9f5b-40af-b177-e9e0ef5eee50"
+        name="S'occuper de l'Atelier d'Entrtien"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="b48a7eab-89d2-4732-892a-25e9bc63db25"
+            LastKnownName="Station-Service"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+        name="Agence de Voyage"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="961f27bf-6d42-4398-81ce-ce9ff9e7b383"
+        name="Agent de Voyage"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="d4c8d5eb-ab93-4cec-bb3b-3815bcecf00f"
+            isDerived="false"
+            sourceEndRoleName="Agent de Voyage"
+            targetEndRoleName="OrganiserVoyage"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="8079f4a7-7e53-4c10-92f6-52d7869d7137"
+              LastKnownName="OrganiserVoyage"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="79b8a0cd-da79-4dab-9bb1-754c6902bae0"
+                  name="Agent de Voyage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="065bb64f-3caf-4209-b670-a937690e8c58"
+                  name="OrganiserVoyage"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="a0fa8226-ed50-42ee-9142-28ab06e4abc7"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="4964a589-9642-4963-85d0-47c748f4ab5c"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Reserver Billet Train"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="a33585fd-c0f8-4d12-b89c-bcbe4298d83a"
+              LastKnownName="Reserver Billet"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="82eb0f28-4188-4ea0-b0e9-1763ea9a9fc2"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9b3ce600-1f29-40ff-8802-dd1e5aff8917"
+                  name="Reserver Billet Train"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="60ccadd8-79fc-4f30-b071-8b2c87d8899c"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Demander Facture"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="45a197ed-0b5d-4186-a59f-1a939d827872"
+              LastKnownName="Demander Facture Détaillé"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d7175e30-4fb5-4056-b46e-4631b3d7d89a"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f2c3c860-0fa0-499b-8941-662058e2d1d1"
+                  name="Demander Facture"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="094a5f91-dd3e-4ebe-9a33-b2efab4ed4cb"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Reserver Taxi"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="353e6a6e-983f-4325-943f-819b01a7e982"
+              LastKnownName="Reserver Taxi"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a1d1c70a-123a-48c2-b30a-80b92bccc69c"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3c43b220-41ad-4764-85c4-60c3021eacfe"
+                  name="Reserver Taxi"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8079f4a7-7e53-4c10-92f6-52d7869d7137"
+        name="OrganiserVoyage"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="046fbc28-68cd-4017-9c92-084c7e32f07f">
+            <useCaseMoniker
+              Id="b163c1d2-01f1-4f4d-928b-3ddb19ac1c1a"
+              LastKnownName="Réserver Chambre Hotel"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+          <include
+            Id="cf5f5eed-1842-47ac-9ca7-e3efb543b169">
+            <useCaseMoniker
+              Id="353e6a6e-983f-4325-943f-819b01a7e982"
+              LastKnownName="Reserver Taxi"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+          <include
+            Id="b2df74d1-970c-4112-ab3c-053665272337">
+            <useCaseMoniker
+              Id="a33585fd-c0f8-4d12-b89c-bcbe4298d83a"
+              LastKnownName="Reserver Billet"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b163c1d2-01f1-4f4d-928b-3ddb19ac1c1a"
+        name="Réserver Chambre Hotel"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="353e6a6e-983f-4325-943f-819b01a7e982"
+        name="Reserver Taxi"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a33585fd-c0f8-4d12-b89c-bcbe4298d83a"
+        name="Reserver Billet"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="a97009b1-b98f-4f8e-a630-89c12c4cf9f1">
+            <useCaseMoniker
+              Id="985555d8-3615-49a0-b0ad-6d4219fef1f6"
+              LastKnownName="Voyage par Avion/Train"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="87e41687-0c5f-467d-9433-2cf5604afa18"
+        name="Etablir une Facture Détaillée"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="77fb5487-5cbd-4b4c-bb7b-6e119fa26aef"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="aaf5f98c-4be3-4a17-b450-1a40272a19f7"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Demander Facture"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="d1268bb7-3c63-4d85-9e20-ae89380e888c"
+              LastKnownName="Demander Facture"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f84407d6-845f-40d9-a0a9-55ce2c9265bb"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8f38d835-fb95-414e-b230-f028b1e0b2a6"
+                  name="Demander Facture"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="2266d581-8ee6-4065-bf40-687290e66417"
+        name="Agent de Voyage"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="d1268bb7-3c63-4d85-9e20-ae89380e888c"
+        name="Demander Facture"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="45a197ed-0b5d-4186-a59f-1a939d827872"
+        name="Demander Facture Détaillé"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="edcc5b11-4679-4d75-b419-b4d068f4231b"
+        name="Etablir Facture Détaillé"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="1e053459-38af-4d2e-8b37-6680e42b7f1a">
+            <useCaseMoniker
+              Id="8079f4a7-7e53-4c10-92f6-52d7869d7137"
+              LastKnownName="OrganiserVoyage"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="985555d8-3615-49a0-b0ad-6d4219fef1f6"
+        name="Voyage par Avion/Train"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="3e44ac86-bea1-473f-bea1-a7136e633a76"
+        name="Magasin de Location Vidéo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="23f6cc7e-de4a-47cc-a4e3-c0eae05cda7a"
+        name="Client"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="58fb5a7c-9779-4ffc-a47b-6ffe17117a77"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Emprunter une Vidéo"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="add9e546-c77b-4cc6-85f3-1c1d192b14ea"
+              LastKnownName="Emprunter une Vidéo"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="cc13c2c6-ea16-47e9-bbe0-2ecd095fdd81"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="59188a83-bd86-44a9-865a-8bd703924f99"
+                  name="Emprunter une Vidéo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d08f6ca7-830b-4e92-b776-389e52f48e6d"
+            isDerived="false"
+            sourceEndRoleName="Client"
+            targetEndRoleName="Restituer une Vidéo"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e5519735-38b6-45cc-93ae-d4e0f4d753dc"
+              LastKnownName="Restituer une Vidéo"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8e5c3967-32e8-47f3-b8fd-f9dba147c171"
+                  name="Client"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="75ec45bb-fbc8-427f-9ff2-6d5d0dc2d66b"
+                  name="Restituer une Vidéo"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="add9e546-c77b-4cc6-85f3-1c1d192b14ea"
+        name="Emprunter une Vidéo"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="5c7d7679-5264-4041-855c-571bf435c404">
+            <useCaseMoniker
+              Id="e3aaeb90-29ac-4b98-84e5-f1439511dcd9"
+              LastKnownName="Introduire carte"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+          <include
+            Id="79c0dff3-81a9-4a9b-abe5-ca3a040a9043">
+            <useCaseMoniker
+              Id="2a6dd33c-bfde-4bfa-8b81-880ba8474b29"
+              LastKnownName="Rechercher une Vidéo"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="3e44ac86-bea1-473f-bea1-a7136e633a76"
+            LastKnownName="Magasin de Location Vidéo"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e5519735-38b6-45cc-93ae-d4e0f4d753dc"
+        name="Restituer une Vidéo"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="3e44ac86-bea1-473f-bea1-a7136e633a76"
+            LastKnownName="Magasin de Location Vidéo"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2a6dd33c-bfde-4bfa-8b81-880ba8474b29"
+        name="Rechercher une Vidéo"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="6c27603a-3a08-4b4d-97cc-b87b7609c575">
+            <useCaseMoniker
+              Id="b9773227-5ee8-4161-a95f-ad67b519aa7a"
+              LastKnownName="Choisir une Vidéo"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="3e44ac86-bea1-473f-bea1-a7136e633a76"
+            LastKnownName="Magasin de Location Vidéo"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e3aaeb90-29ac-4b98-84e5-f1439511dcd9"
+        name="Introduire carte"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="6000cd73-efa2-4f85-90e9-d2e0e27b3908">
+            <useCaseMoniker
+              Id="2a6dd33c-bfde-4bfa-8b81-880ba8474b29"
+              LastKnownName="Rechercher une Vidéo"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </include>
+        </additions>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b9773227-5ee8-4161-a95f-ad67b519aa7a"
+        name="Choisir une Vidéo"
+        isAbstract="false"
+        isLeaf="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="29f032c7-0080-4eeb-aa4b-d293ae8129e8"
+        name="Avion"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="425678e0-75d9-485f-b706-48631f155552"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="a33585fd-c0f8-4d12-b89c-bcbe4298d83a"
+              LastKnownName="Reserver Billet"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="65402e0d-02f9-4638-ba55-172ba5cb74c2"
+        name="Train"
+        isAbstract="false"
+        isLeaf="false">
+        <generalsInternal>
+          <generalization
+            Id="98850250-4101-4bcc-bba1-3a40f00f50cd"
+            isSubstitutable="false">
+            <useCaseMoniker
+              Id="a33585fd-c0f8-4d12-b89c-bcbe4298d83a"
+              LastKnownName="Reserver Billet"
+              LastKnownLocation="TPCasd'Utilisation.uml" />
+          </generalization>
+        </generalsInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="e3e4f81e-213e-4a96-9744-108f01d0f17a"
+            LastKnownName="Agence de Voyage"
+            LastKnownLocation="TPCasd'Utilisation.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="197c0168-cc09-461c-8ace-111bf018ab22"
+        name="Mediatheque"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

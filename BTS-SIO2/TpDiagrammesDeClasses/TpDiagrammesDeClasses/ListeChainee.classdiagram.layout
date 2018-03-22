@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="ListeChainee">
+  <logicalClassDesignerModelMoniker Id="21128145-48f3-456d-9d1a-cc03041da3ce" />
+  <nestedChildShapes>
+    <classShape Id="fb7a004c-4914-4d61-82e0-134e501db259" absoluteBounds="2, 1.25, 2.125, 1.0624999801317849" hideQualifiedName="false" increaseHeight="0" customColor="181, 193, 223">
+      <classMoniker Id="cdd5f254-ad7e-4e5c-ac0a-5ae1eb24677a" LastKnownName="ListeChainee" />
+      <nestedChildShapes>
+        <AttributeElementListCompartment Id="a55fd907-6d79-44d0-a5f1-1fffbca07588" absoluteBounds="2.015, 1.6400000000000001, 2.0949999999999998, 0.36132811258236563" name="AttributesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <OperationElementListCompartment Id="3b730e4c-435b-4af6-b45e-4997241d5cbf" absoluteBounds="2.015, 2.0113281125823654, 2.0949999999999998, 0.2011718675494194" name="OperationsCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</logicalClassDesignerDiagram>

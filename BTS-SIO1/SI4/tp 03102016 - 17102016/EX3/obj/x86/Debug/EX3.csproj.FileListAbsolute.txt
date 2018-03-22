@@ -1,0 +1,8 @@
+U:\si4\tp 03102016\EX3\bin\Debug\EX3.exe
+U:\si4\tp 03102016\EX3\bin\Debug\EX3.pdb
+U:\si4\tp 03102016\EX3\obj\x86\Debug\EX3.exe
+U:\si4\tp 03102016\EX3\obj\x86\Debug\EX3.pdb
+U:\si4\tp 03102016 - 17102016\EX3\bin\Debug\EX3.exe
+U:\si4\tp 03102016 - 17102016\EX3\bin\Debug\EX3.pdb
+U:\si4\tp 03102016 - 17102016\EX3\obj\x86\Debug\EX3.exe
+U:\si4\tp 03102016 - 17102016\EX3\obj\x86\Debug\EX3.pdb

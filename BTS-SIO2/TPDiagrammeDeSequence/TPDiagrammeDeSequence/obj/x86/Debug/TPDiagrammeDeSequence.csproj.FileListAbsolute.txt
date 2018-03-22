@@ -1,0 +1,5 @@
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\TPDiagrammeDeSequence\bin\Debug\TPDiagrammeDeSequence.exe
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\TPDiagrammeDeSequence\bin\Debug\TPDiagrammeDeSequence.pdb
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\TPDiagrammeDeSequence\obj\x86\Debug\TPDiagrammeDeSequence.exe
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\TPDiagrammeDeSequence\obj\x86\Debug\TPDiagrammeDeSequence.pdb
+U:\SIO 2 2017-2018\SLAM 4\TPDiagrammeDeSequence\TPDiagrammeDeSequence\obj\x86\Debug\TPDiagrammeDeSequence.csprojResolveAssemblyReference.cache

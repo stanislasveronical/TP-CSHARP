@@ -1,0 +1,26 @@
+@startuml Fenetre
+
+[*] -> Instanciee : etat initial
+
+state Instanciee {
+    
+state Redimentionnee {
+    Normale --> Reduite
+    Reduite --> Agrandie
+    Agrandie --> Normale 
+state Normale {
+    Deplacee --> Redimentionnee
+    Redimentionnee --> Deplacee
+} 
+}
+state Deplacee {
+    Deplacee --> Detruire
+}
+}
+state Detruire {
+    Detruire --> Deplacee
+    Instanciee --> Detruire
+    Detruire --> Instanciee
+}
+Detruire -> [*] : etat final
+@enduml

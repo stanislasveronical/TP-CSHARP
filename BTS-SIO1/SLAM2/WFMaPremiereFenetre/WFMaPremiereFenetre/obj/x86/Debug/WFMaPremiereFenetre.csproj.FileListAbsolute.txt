@@ -1,0 +1,9 @@
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\bin\Debug\WFMaPremiereFenetre.exe
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\bin\Debug\WFMaPremiereFenetre.pdb
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.Properties.Resources.resources
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.csproj.GenerateResource.Cache
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.exe
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.pdb
+U:\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.MaPremiereFenetre.resources
+U:\SIO 1 2016-2017\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.exe
+U:\SIO 1 2016-2017\Slam2\WFMaPremiereFenetre\WFMaPremiereFenetre\obj\x86\Debug\WFMaPremiereFenetre.pdb

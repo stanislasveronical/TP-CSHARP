@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="cf49f63d-b1d1-42af-a468-e16d0f431da3" name="UML Emprunter une Vidéo" linkedPackageId="211dc2d5-49ef-495d-b2df-5f9ef9838d40" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <ownedCommentsInternal>
+    <comment Id="660e6ec2-1dc0-466f-8a24-3dfcfb9d794c">
+      <elementDefinition Id="dbcd8195-74e2-45fb-8ddc-29d733e1f9fd" />
+    </comment>
+  </ownedCommentsInternal>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="85c89497-2bc5-493a-9c90-dd86bd645509" name="Magasin de Location Vidéo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3e44ac86-bea1-473f-bea1-a7136e633a76" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="76be014a-ad1e-4203-9842-bea3262d7f6b" name="Client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="23f6cc7e-de4a-47cc-a4e3-c0eae05cda7a" />
+        <targetEnds>
+          <association Id="4f207531-b082-439a-84a0-d60fb2249958" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Emprunter une Vidéo" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ee9c8814-8b1f-40b8-b015-71a70ed7c01b" LastKnownName="Emprunter une Vidéo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b1f052b3-d088-4a60-89de-e8f6caf7e133" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="cc13c2c6-ea16-47e9-bbe0-2ecd095fdd81" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="de5a48b1-f98d-44f1-920e-edafb96590cf" name="Emprunter une Vidéo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="59188a83-bd86-44a9-865a-8bd703924f99" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="58fb5a7c-9779-4ffc-a47b-6ffe17117a77" />
+          </association>
+          <association Id="602f9f05-cf84-457c-ac80-a0194184e15a" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Restituer une Vidéo" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="aa97adea-98c1-4402-8228-6736ee028326" LastKnownName="Restituer une Vidéo" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="775aaf1f-dada-4119-ae43-cec5bd429001" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="8e5c3967-32e8-47f3-b8fd-f9dba147c171" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c9946273-75fc-42c4-bbfb-3f742d52d42f" name="Restituer une Vidéo" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="75ec45bb-fbc8-427f-9ff2-6d5d0dc2d66b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d08f6ca7-830b-4e92-b776-389e52f48e6d" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ee9c8814-8b1f-40b8-b015-71a70ed7c01b" name="Emprunter une Vidéo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="add9e546-c77b-4cc6-85f3-1c1d192b14ea" />
+        <additions>
+          <include Id="11db11cd-6041-4bfe-a693-6a854d93c961">
+            <useCaseMoniker Id="3ea47553-e719-4f3b-81ed-970537b26086" LastKnownName="Rechercher une Vidéo" />
+            <elementDefinition Id="79c0dff3-81a9-4a9b-abe5-ca3a040a9043" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="85c89497-2bc5-493a-9c90-dd86bd645509" LastKnownName="Magasin de Location Vidéo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="aa97adea-98c1-4402-8228-6736ee028326" name="Restituer une Vidéo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e5519735-38b6-45cc-93ae-d4e0f4d753dc" />
+        <subjects>
+          <subsystemMoniker Id="85c89497-2bc5-493a-9c90-dd86bd645509" LastKnownName="Magasin de Location Vidéo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3ea47553-e719-4f3b-81ed-970537b26086" name="Rechercher une Vidéo" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2a6dd33c-bfde-4bfa-8b81-880ba8474b29" />
+        <subjects>
+          <subsystemMoniker Id="85c89497-2bc5-493a-9c90-dd86bd645509" LastKnownName="Magasin de Location Vidéo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="211dc2d5-49ef-495d-b2df-5f9ef9838d40" name="TPCasd'Utilisation">
+    <elementDefinition Id="9cb30085-e2dc-417e-b445-478051f1a8af" />
+    <profileInstances>
+      <packageHasProfileInstances Id="32076ea3-552d-4049-97b7-0526e60466a1">
+        <profileInstance Id="17e559d5-d36a-46a1-a5f0-be6b1e9deeaa" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bb1aee57-f7b1-45d4-9f6f-bde491eaab27">
+        <profileInstance Id="7006af3e-9fb6-448e-8682-5d2d00b35c97" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

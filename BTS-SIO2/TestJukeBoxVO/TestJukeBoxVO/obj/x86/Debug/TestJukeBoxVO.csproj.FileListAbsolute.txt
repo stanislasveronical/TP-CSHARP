@@ -1,0 +1,5 @@
+U:\SIO 2 2017-2018\SLAM 4\TestJukeBoxVO\TestJukeBoxVO\bin\Debug\TestJukeBoxVO.exe
+U:\SIO 2 2017-2018\SLAM 4\TestJukeBoxVO\TestJukeBoxVO\bin\Debug\TestJukeBoxVO.pdb
+U:\SIO 2 2017-2018\SLAM 4\TestJukeBoxVO\TestJukeBoxVO\obj\x86\Debug\TestJukeBoxVO.exe
+U:\SIO 2 2017-2018\SLAM 4\TestJukeBoxVO\TestJukeBoxVO\obj\x86\Debug\TestJukeBoxVO.pdb
+U:\SIO 2 2017-2018\SLAM 4\TestJukeBoxVO\TestJukeBoxVO\obj\x86\Debug\TestJukeBoxVO.csprojResolveAssemblyReference.cache

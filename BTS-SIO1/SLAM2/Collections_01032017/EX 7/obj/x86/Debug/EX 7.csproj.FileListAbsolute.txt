@@ -1,0 +1,5 @@
+U:\Slam2\Collections_01032017\EX 7\bin\Debug\EX 7.exe
+U:\Slam2\Collections_01032017\EX 7\bin\Debug\EX 7.pdb
+U:\Slam2\Collections_01032017\EX 7\obj\x86\Debug\EX 7.exe
+U:\Slam2\Collections_01032017\EX 7\obj\x86\Debug\EX 7.pdb
+U:\SIO 1 2016-2017\Slam2\Collections_01032017\EX 7\obj\x86\Debug\EX 7.exe

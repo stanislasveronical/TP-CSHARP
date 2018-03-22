@@ -1,0 +1,6 @@
+U:\tp26092016\testNumerique\bin\Debug\testNumerique.exe
+U:\tp26092016\testNumerique\bin\Debug\testNumerique.pdb
+U:\tp26092016\testNumerique\obj\x86\Debug\testNumerique.exe
+U:\tp26092016\testNumerique\obj\x86\Debug\testNumerique.pdb
+U:\si4\tp26092016\testNumerique\obj\x86\Debug\testNumerique.exe
+U:\SI 4\tp26092016\testNumerique\obj\x86\Debug\testNumerique.exe

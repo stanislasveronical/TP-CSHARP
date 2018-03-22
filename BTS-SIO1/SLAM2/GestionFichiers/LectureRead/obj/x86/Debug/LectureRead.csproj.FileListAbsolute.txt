@@ -1,0 +1,6 @@
+U:\Slam2\GestionFichiers\LectureRead\bin\Debug\LectureRead.exe
+U:\Slam2\GestionFichiers\LectureRead\bin\Debug\LectureRead.pdb
+U:\Slam2\GestionFichiers\LectureRead\obj\x86\Debug\LectureRead.exe
+U:\Slam2\GestionFichiers\LectureRead\obj\x86\Debug\LectureRead.pdb
+U:\SIO 1 2016-2017\Slam2\GestionFichiers\LectureRead\obj\x86\Debug\LectureRead.exe
+U:\SIO 1 2016-2017\Slam2\GestionFichiers\LectureRead\obj\x86\Debug\LectureRead.pdb

@@ -1,0 +1,9 @@
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\bin\Debug\Bibliotheque_22022017.exe
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\bin\Debug\Bibliotheque_22022017.pdb
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\bin\Debug\dllBibliothèque.dll
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\bin\Debug\dllBibliothèque.xml
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\obj\x86\Debug\Bibliotheque_22022017.exe
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\obj\x86\Debug\Bibliotheque_22022017.pdb
+U:\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\obj\x86\Debug\Bibliotheque_22022017.csprojResolveAssemblyReference.cache
+U:\SIO 1 2016-2017\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\obj\x86\Debug\Bibliotheque_22022017.exe
+U:\SIO 1 2016-2017\Slam2\Bibliotheque_22022017\Bibliotheque_22022017\obj\x86\Debug\Bibliotheque_22022017.pdb

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tp26092016", "tp26092016\tp26092016.csproj", "{D69E1E41-2145-437B-9EEB-C3FA6A25DDA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testNumerique", "testNumerique\testNumerique.csproj", "{CB209F6F-AA7C-4B7B-9523-08AE672C1EB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D69E1E41-2145-437B-9EEB-C3FA6A25DDA8}.Debug|x86.ActiveCfg = Debug|x86
+		{D69E1E41-2145-437B-9EEB-C3FA6A25DDA8}.Debug|x86.Build.0 = Debug|x86
+		{D69E1E41-2145-437B-9EEB-C3FA6A25DDA8}.Release|x86.ActiveCfg = Release|x86
+		{D69E1E41-2145-437B-9EEB-C3FA6A25DDA8}.Release|x86.Build.0 = Release|x86
+		{CB209F6F-AA7C-4B7B-9523-08AE672C1EB5}.Debug|x86.ActiveCfg = Debug|x86
+		{CB209F6F-AA7C-4B7B-9523-08AE672C1EB5}.Debug|x86.Build.0 = Debug|x86
+		{CB209F6F-AA7C-4B7B-9523-08AE672C1EB5}.Release|x86.ActiveCfg = Release|x86
+		{CB209F6F-AA7C-4B7B-9523-08AE672C1EB5}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

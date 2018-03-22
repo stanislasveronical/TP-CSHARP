@@ -1,0 +1,4 @@
+E:\JeuDeGrattage\JeuDeGrattage\bin\Debug\JeuDeGrattage.exe
+E:\JeuDeGrattage\JeuDeGrattage\bin\Debug\JeuDeGrattage.pdb
+E:\JeuDeGrattage\JeuDeGrattage\obj\x86\Debug\JeuDeGrattage.exe
+E:\JeuDeGrattage\JeuDeGrattage\obj\x86\Debug\JeuDeGrattage.pdb

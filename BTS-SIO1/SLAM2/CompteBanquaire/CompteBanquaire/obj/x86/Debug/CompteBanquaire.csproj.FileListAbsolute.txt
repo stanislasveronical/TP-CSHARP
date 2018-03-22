@@ -1,0 +1,5 @@
+U:\Slam2\CompteBanquaire\CompteBanquaire\bin\Debug\CompteBanquaire.pdb
+U:\Slam2\CompteBanquaire\CompteBanquaire\obj\x86\Debug\CompteBanquaire.pdb
+U:\Slam2\CompteBanquaire\CompteBanquaire\bin\Debug\CompteBanquaire.dll
+U:\Slam2\CompteBanquaire\CompteBanquaire\obj\x86\Debug\CompteBanquaire.dll
+U:\Slam2\CompteBanquaire\CompteBanquaire\obj\x86\Debug\CompteBanquaire.csprojResolveAssemblyReference.cache

@@ -1,0 +1,20 @@
+@startuml Porte Serrure
+
+[*] -> Verrouiller : etat initial
+
+state Verrouiller { 
+    
+    SimpleTour --> DoubleTour
+    DoubleTour --> SimpleTour    
+}
+state Deverrouiller {
+    Fermer --> Ouvrir
+    Ouvrir --> Fermer
+}
+SimpleTour --> Deverrouiller
+Deverrouiller --> SimpleTour
+Fermer --> Franchir
+Franchir -> [*] : etat final
+
+
+@enduml

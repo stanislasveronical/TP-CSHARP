@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="051666a5-344d-4666-aa68-6d52542b432c" name="UMLUseCaseDiagram" linkedPackageId="ee055978-8716-4521-b09a-d433a91ad293" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="b83a8746-7cf6-4c62-9750-668e5d21bc3b">
+      <profileInstance Id="552fb1c8-64ba-4a2a-8808-d28d00dcb276" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="5d7406c6-f026-4b64-85cc-8fa85fd7b45b">
+      <profileInstance Id="3e15434b-f7ec-4880-b682-3e62e027de48" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="a744d3a0-11b6-4049-9bdb-403332d09cd8" name="Client" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2e8ba579-b50e-43d5-b86a-e23d3b323ab8" />
+        <targetEnds>
+          <association Id="52fcdb5f-fe51-47bf-aa25-90c5bf92a157" isDerived="false" sourceEndRoleName="Client" targetEndRoleName="Servir d'Essence" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="467e3bdb-c845-438e-8912-dd99bb93d104" LastKnownName="Prendre de l'Essence" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c52424c7-9e2c-4969-aa79-325489a94d94" name="Client" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a51904b2-8ebd-496e-a24f-5c9de1b4fe66" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0aa0ae43-a8eb-452f-b859-50eb2606dae8" name="Servir d'Essence" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="38707176-62eb-4a0a-b18f-3c6b69673e6b" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e4850513-518f-4a72-a7b4-be8a350055b7" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="01cccdf1-8a40-46e4-8222-f44a33f72ca5" name="Station-Service" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="b48a7eab-89d2-4732-892a-25e9bc63db25" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="467e3bdb-c845-438e-8912-dd99bb93d104" name="Prendre de l'Essence" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b7b861d3-1dc0-4f2c-87db-7c8e9866c78a" />
+        <additions>
+          <include Id="ec14f11b-94e9-4da1-a6f8-9062dad5edf8">
+            <useCaseMoniker Id="f3c437a5-3160-4de6-abbc-1c2ea1364c3c" LastKnownName="Prendre pistolet à une pompe" />
+            <elementDefinition Id="1caa5138-8ebb-4356-a7a3-806606e85787" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="01cccdf1-8a40-46e4-8222-f44a33f72ca5" LastKnownName="Station-Service" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f3c437a5-3160-4de6-abbc-1c2ea1364c3c" name="Prendre pistolet à une pompe" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7b71bcf4-8bd6-4f67-896f-f87669ed47ce" />
+        <additions>
+          <include Id="cfb05d6d-dedf-452e-a1c8-fb39fbd5a0f7">
+            <useCaseMoniker Id="e44a20be-13c5-4344-a3d3-b3e9be36d0e2" LastKnownName="Appuyer sur la gâchette" />
+            <elementDefinition Id="3b66d6d1-e2f7-497c-9782-ce2a926461c5" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="01cccdf1-8a40-46e4-8222-f44a33f72ca5" LastKnownName="Station-Service" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e44a20be-13c5-4344-a3d3-b3e9be36d0e2" name="Appuyer sur la gâchette" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8639eb31-24c0-4087-a3e9-a7c3279e8707" />
+        <subjects>
+          <subsystemMoniker Id="01cccdf1-8a40-46e4-8222-f44a33f72ca5" LastKnownName="Station-Service" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="92836743-eaea-40ac-bb79-c52c24326af8" name="Gérant" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f3956f80-03fd-4735-b268-8f342098b7e7" />
+        <targetEnds>
+          <association Id="07a78600-1b18-400f-a651-d47e7e909ec0" isDerived="false" sourceEndRoleName="Gérant" targetEndRoleName="Utilisation SI - OperationGestion" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="f3056f84-ff22-4699-a077-e835d7d4701d" LastKnownName="Utilisation SI - OperationGestion" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1a475674-03b0-421c-a28a-f5a1d8527e95" name="Gérant" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="a2812c0e-cbb4-4eed-9192-3d4f21362622" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7961fd27-8672-4316-8a85-6360f745721c" name="Utilisation SI - OperationGestion" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="691d6116-b1bc-4c2b-ac6e-4ebcedf51058" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f50bac56-156a-4fda-9c01-9106f90dafb0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="f3056f84-ff22-4699-a077-e835d7d4701d" name="Utilisation SI - OperationGestion" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="4c0075c2-04b2-49fe-aa99-00d6a4500a51" />
+        <subjects>
+          <subsystemMoniker Id="01cccdf1-8a40-46e4-8222-f44a33f72ca5" LastKnownName="Station-Service" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="a86deb3a-4b1c-4539-8eed-af26181fed90" name="Mecanicien" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="834913bf-eab2-4ac7-9317-5a84f3525bc9" />
+        <targetEnds>
+          <association Id="108942e8-0cec-4f65-9e98-8a25b53c6e06" isDerived="false" sourceEndRoleName="Mecanicien" targetEndRoleName="S'occuper de l'Atelier d'Entrtien" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="60fb0667-7691-4800-9034-50e9c146e628" LastKnownName="S'occuper de l'Atelier d'Entrtien" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4843b52a-ce56-4efd-8aa5-c2956009afc4" name="Mecanicien" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="396e41ce-391b-4bd3-85d8-e71fcc6eb4da" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="12dfa2fc-212d-43e7-9278-e7d2dba6c016" name="S'occuper de l'Atelier d'Entrtien" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9356d01a-1733-413a-abbc-9880430d83c5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8a95efd5-130a-4656-b7fb-573fd9067e52" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="febdc176-9ce7-45d0-b656-85742bd6f029" name="Chef d'Atelier" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="94ee7588-c4de-444e-9718-c1b731fa35b2" />
+        <generalsInternal>
+          <generalization Id="cd112eb4-742f-44b6-a104-8af938cfb14e" isSubstitutable="false">
+            <actorMoniker Id="a86deb3a-4b1c-4539-8eed-af26181fed90" LastKnownName="Mecanicien" />
+            <elementDefinition Id="b14cf1b9-8ab5-464c-bb43-5da0925ab08e" />
+          </generalization>
+          <generalization Id="a162b4ca-fab2-420d-bc6c-2e871699835b" isSubstitutable="false">
+            <actorMoniker Id="92836743-eaea-40ac-bb79-c52c24326af8" LastKnownName="Gérant" />
+            <elementDefinition Id="347e030b-66b5-4fd0-adee-095584b19bfd" />
+          </generalization>
+        </generalsInternal>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="60fb0667-7691-4800-9034-50e9c146e628" name="S'occuper de l'Atelier d'Entrtien" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="400fb1e9-9f5b-40af-b177-e9e0ef5eee50" />
+        <subjects>
+          <subsystemMoniker Id="01cccdf1-8a40-46e4-8222-f44a33f72ca5" LastKnownName="Station-Service" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="ee055978-8716-4521-b09a-d433a91ad293" name="TPCasd'Utilisation">
+    <elementDefinition Id="9cb30085-e2dc-417e-b445-478051f1a8af" />
+  </package>
+</useCaseModelRoot>

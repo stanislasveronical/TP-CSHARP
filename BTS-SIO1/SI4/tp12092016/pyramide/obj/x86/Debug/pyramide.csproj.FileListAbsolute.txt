@@ -1,0 +1,5 @@
+U:\tp12092016\pyramide\bin\Debug\pyramide.exe
+U:\tp12092016\pyramide\bin\Debug\pyramide.pdb
+U:\tp12092016\pyramide\obj\x86\Debug\pyramide.exe
+U:\tp12092016\pyramide\obj\x86\Debug\pyramide.pdb
+U:\tp12092016\pyramide\obj\x86\Debug\pyramide.csprojResolveAssemblyReference.cache

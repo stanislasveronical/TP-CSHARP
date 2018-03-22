@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="411f451b-1b84-4a36-ac1a-53f5cb797497" name="Conference" linkedPackageId="e9ba37e7-e645-4c70-8ba5-6ed4e7406676" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="b639582c-ff4a-4a2a-8e7e-073b42fdeb7a">
+      <profileInstance Id="668d4f93-d70b-4988-ab03-7c89abc677fb" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="d55a2302-2734-4022-9f2f-70fcc0b132bc">
+      <profileInstance Id="bfd1d4a6-7742-41f8-86e7-2140a8d92dbb" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="2c3d60a6-f032-4e28-82cf-152e0ddb4e21" name="Conference" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="caa962d0-0187-41c5-81f5-f1fcd8dd9a09" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="eb31063d-0fd2-4f09-967b-a2cebb3e0994" name="Session" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="24d30e98-653e-4f29-b93a-69a6ef7a67c8" />
+        <ownedAttributesInternal>
+          <property Id="1ebabcea-e40d-4f2e-b46f-9db20fb2bf22" name="Date" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="8e8398ec-f03f-4b7d-a52c-c43d7c1ac52e" />
+          </property>
+          <property Id="34364c01-8ab3-4197-aeb8-4bfd5ae9def2" name="Heure" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f6491280-91f4-4eb0-ba9d-e6c1b582777f" />
+          </property>
+          <property Id="da388687-1327-40cd-9777-903e81d81fed" name="DebutDeSession" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d4ad2c21-bee0-4892-bbd8-2e8c9b11a391" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="f9dbd1a5-9d01-48b5-9a4b-f2849f97bf71" name="Participant" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="5cfb154c-77b1-4975-afa7-9f31a50c5779" />
+        <ownedAttributesInternal>
+          <property Id="e48a77f4-00e7-4c7d-ba73-e3fd1e4f1a4e" name="Orateur" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="02685125-94e3-4418-b1c0-0dab68a99afe" />
+          </property>
+          <property Id="c027f9e2-1e2e-4002-9f97-11b70eaa4631" name="Public" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="d979a660-893e-4f4f-ada5-5f92c087e8fa" />
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation Id="1bc4b3f2-994c-40cf-ab23-9b9ce04c5850" name="Sinscrire" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="da0b7e43-e8b2-4be8-9bc2-58e90dfbabe2" />
+          </operation>
+          <operation Id="19e0597d-f0af-42ab-8b4b-d5705e91b501" name="Annuler" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="8bd42ffa-4579-412b-96f8-57ed148565a2" />
+          </operation>
+          <operation Id="92c93e38-9a93-4f74-a944-36df67e9c87b" name="Confirmer" isLeaf="false" isStatic="false" isAbstract="false" concurrency="Sequential" isQuery="false">
+            <elementDefinition Id="3f1382ff-0eb0-421d-a601-2a6c442c3af2" />
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1906e3f0-15a7-4064-b8d3-794231dbfcc3" name="ArticleScientifique" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="ea14985e-fbc4-4b19-8741-2a233aab0093" />
+        <ownedAttributesInternal>
+          <property Id="5c049fc4-472f-445b-b57a-e1a86b6cf294" name="long" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="10a8106d-053a-4aff-9a6b-c55232b3d57c" />
+          </property>
+          <property Id="9710f708-162f-4e19-b53d-5b2b5e6140ac" name="court" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="f71c549d-fad0-4d0c-bb75-07184b6321ad" />
+          </property>
+          <property Id="76eb22c4-8609-402c-9c6c-5dd4aa4aa692" name="sujet" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="7e19e221-3975-4b4e-8848-76cb1cc37417" />
+          </property>
+          <property Id="623ce87a-c835-4856-a401-ec9b447098ed" name="section" isLeaf="false" isStatic="false" isReadOnly="false" isUnique="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+            <elementDefinition Id="89afd086-41bf-478b-89cb-fdeff61449e3" />
+          </property>
+        </ownedAttributesInternal>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="adc6c46d-55a7-43bb-b751-ecaede8bb423" name="Auteur" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="4d1e2202-4cd4-42ef-9103-a971ecde2d1c" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="e9ba37e7-e645-4c70-8ba5-6ed4e7406676" name="TpDiagrammesDeClasses">
+    <elementDefinition Id="434827e0-beda-4df0-932d-27fb654b0747" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CompteBanquaire</name>
+    </assembly>
+    <members>
+        <!-- Commentaire XML incorrect ignoré pour le membre "M:CompteBanquaire.Compte.#ctor(System.String,System.Decimal)" -->
+        <member name="M:CompteBanquaire.Compte.#ctor(System.String,System.Decimal,System.Decimal,System.Decimal)">
+            
+        </member>
+    </members>
+</doc>

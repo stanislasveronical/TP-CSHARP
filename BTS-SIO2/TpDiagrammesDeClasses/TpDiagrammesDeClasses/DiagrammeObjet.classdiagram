@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="e8adf30e-fbd3-4c6a-82ec-374f3f49945d" name="DiagrammeObjet" linkedPackageId="3d3c7198-a88a-474d-8790-5a76defaf4fa" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <profileInstances>
+    <packageHasProfileInstances Id="0b82a046-7e6f-45c7-8d09-2f54e30e8325">
+      <profileInstance Id="481acab7-b4dd-4c74-9997-3018d06d8269" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="252fd000-cacd-4dfa-af46-8448f81bd724">
+      <profileInstance Id="e9718db8-7bac-4abc-af89-bc6ece112a8d" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="260d0ca2-da3f-4c0d-b6d6-cdfab2277679" name="Pays" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="917eb6d6-3704-4fa9-8f85-03455f312c53" />
+        <targetEnds>
+          <association Id="78e593ae-f233-47da-8e09-02ab3f78a7ba" isDerived="false" sourceEndRoleName=" " targetEndRoleName=" " isLeaf="false" isAbstract="false">
+            <classMoniker Id="1988bd54-446b-493d-a460-eb6411482428" LastKnownName="Capitale" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a00798b1-9f5b-41ff-82f4-5ab512ff32bb" name=" " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="f31d6fb5-e01f-45d5-b0d9-2066766c80b6" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c83fcb87-8c8d-4e39-bfa3-d018217fde61" name=" " isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="16cbaae1-de4c-4f7f-a6a2-7ca050a391de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="ed824b21-6ce1-423e-bf43-1dd225f3f014" />
+          </association>
+        </targetEnds>
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="1988bd54-446b-493d-a460-eb6411482428" name="Capitale" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="e71f9731-fdbb-4507-aba3-ddebd0d7613f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="9d93541c-3a08-42c7-8ae5-4fec13f8fbeb" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="d5082a9b-8679-46f3-84de-9b769ba2c53f" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="3d3c7198-a88a-474d-8790-5a76defaf4fa" name="TpDiagrammesDeClasses">
+    <elementDefinition Id="434827e0-beda-4df0-932d-27fb654b0747" />
+  </package>
+</logicalClassDesignerModel>

@@ -1,0 +1,8 @@
+U:\Slam2\WFFiche1\WFFiche1\bin\Debug\WFFiche1.exe
+U:\Slam2\WFFiche1\WFFiche1\bin\Debug\WFFiche1.pdb
+U:\Slam2\WFFiche1\WFFiche1\obj\x86\Debug\WFFiche1.fm_principal.resources
+U:\Slam2\WFFiche1\WFFiche1\obj\x86\Debug\WFFiche1.Properties.Resources.resources
+U:\Slam2\WFFiche1\WFFiche1\obj\x86\Debug\WFFiche1.csproj.GenerateResource.Cache
+U:\Slam2\WFFiche1\WFFiche1\obj\x86\Debug\WFFiche1.exe
+U:\Slam2\WFFiche1\WFFiche1\obj\x86\Debug\WFFiche1.pdb
+U:\Slam2\WFFiche1\WFFiche1\obj\x86\Debug\WFFiche1.csprojResolveAssemblyReference.cache

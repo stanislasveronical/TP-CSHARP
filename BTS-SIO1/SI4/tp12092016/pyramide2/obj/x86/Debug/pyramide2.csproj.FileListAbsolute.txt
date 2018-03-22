@@ -1,0 +1,8 @@
+U:\tp12092016\pyramide2\bin\Debug\pyramide2.exe
+U:\tp12092016\pyramide2\bin\Debug\pyramide2.pdb
+U:\tp12092016\pyramide2\obj\x86\Debug\pyramide2.exe
+U:\tp12092016\pyramide2\obj\x86\Debug\pyramide2.pdb
+U:\si4\tp12092016\pyramide2\obj\x86\Debug\pyramide2.exe
+U:\si4\tp12092016\pyramide2\obj\x86\Debug\pyramide2.pdb
+U:\SI 4\tp12092016\pyramide2\obj\x86\Debug\pyramide2.exe
+U:\SI 4\tp12092016\pyramide2\obj\x86\Debug\pyramide2.pdb

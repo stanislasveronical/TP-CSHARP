@@ -1,0 +1,21 @@
+@startuml
+
+[*] -> Vivant
+
+state Vivant {
+    state Mineur {
+    }
+state Majeur {
+    Mineur --> Celibataire : Majorite anticipee
+    Mineur --> Celibataire : Croissance
+    Celibataire --> Marie : Marier
+    Marie --> Divorce : Divorcer
+    Divorce --> Marie : Marier
+    Marie --> Veuf : Mort conjoint
+    Veuf --> Marie : Marier
+}
+}
+Vivant --> Decede : Mort
+Decede -> [*]
+
+@enduml

@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{07b998db-aaea-4374-ad37-b94e1e4bc56a}</ProjectGuid>
+    <ArchitectureToolsVersion>1.0.0.0</ArchitectureToolsVersion>
+    <Name>TpDiagrammesDeClasses</Name>
+    <RootNamespace>TpDiagrammesDeClasses</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v10.0\ArchitectureTools\Microsoft.VisualStudio.TeamArchitect.ModelingProject.targets" />
+  <ItemGroup>
+    <Content Include="Conference.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Conference.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Conference.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="DiagrammeObjet.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="DiagrammeObjet.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>DiagrammeObjet.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="ListeChainee.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ListeChainee.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>ListeChainee.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Message Electronique.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Message Electronique.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Message Electronique.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="Ordinateur.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Ordinateur.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>Ordinateur.classdiagram</DependentUpon>
+    </Content>
+    <Content Include="SiteCommerce.classdiagram">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="SiteCommerce.classdiagram.layout">
+      <SubType>Content</SubType>
+      <DependentUpon>SiteCommerce.classdiagram</DependentUpon>
+    </Content>
+    <Folder Include="ModelDefinition\" />
+    <Content Include="ModelDefinition\TpDiagrammesDeClasses.uml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+</Project>

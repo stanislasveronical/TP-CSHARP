@@ -1,0 +1,20 @@
+U:\si4\TP 4\TP 4\bin\Debug\TP 4.exe
+U:\si4\TP 4\TP 4\bin\Debug\TP 4.pdb
+U:\si4\TP 4\TP 4\obj\x86\Debug\TP 4.exe
+U:\si4\TP 4\TP 4\obj\x86\Debug\TP 4.pdb
+G:\SI 4\Tp_prog\tp4 14112016\TP 4\obj\x86\Debug\TP 4.exe
+G:\SI 4\Tp_prog\tp4 14112016\TP 4\obj\x86\Debug\TP 4.pdb
+G:\SI 4\Tp_prog\tp4 14112016\TP 4\bin\Debug\TP 4.exe
+G:\SI 4\Tp_prog\tp4 14112016\TP 4\bin\Debug\TP 4.pdb
+H:\SI 4\Tp_prog\tp 14112016\TP 4\obj\x86\Debug\TP 4.exe
+H:\SI 4\Tp_prog\tp 14112016\TP 4\obj\x86\Debug\TP 4.pdb
+H:\SI 4\Tp_prog\tp 14112016\TP 4\bin\Debug\TP 4.exe
+H:\SI 4\Tp_prog\tp 14112016\TP 4\bin\Debug\TP 4.pdb
+G:\SI 4\Tp_prog\tp 14112016\TP 4\bin\Debug\TP 4.exe
+G:\SI 4\Tp_prog\tp 14112016\TP 4\bin\Debug\TP 4.pdb
+G:\SI 4\Tp_prog\tp 14112016\TP 4\obj\x86\Debug\TP 4.exe
+G:\SI 4\Tp_prog\tp 14112016\TP 4\obj\x86\Debug\TP 4.pdb
+U:\si4\tp 14112016\TP 4\bin\Debug\TP 4.exe
+U:\si4\tp 14112016\TP 4\bin\Debug\TP 4.pdb
+U:\si4\tp 14112016\TP 4\obj\x86\Debug\TP 4.exe
+U:\si4\tp 14112016\TP 4\obj\x86\Debug\TP 4.pdb

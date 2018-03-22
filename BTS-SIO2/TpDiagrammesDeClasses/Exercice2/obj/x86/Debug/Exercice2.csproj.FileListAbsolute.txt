@@ -1,0 +1,4 @@
+U:\SIO 2 2017-2018\SLAM 4\TpDiagrammesDeClasses\Exercice2\bin\Debug\Exercice2.exe
+U:\SIO 2 2017-2018\SLAM 4\TpDiagrammesDeClasses\Exercice2\bin\Debug\Exercice2.pdb
+U:\SIO 2 2017-2018\SLAM 4\TpDiagrammesDeClasses\Exercice2\obj\x86\Debug\Exercice2.exe
+U:\SIO 2 2017-2018\SLAM 4\TpDiagrammesDeClasses\Exercice2\obj\x86\Debug\Exercice2.pdb

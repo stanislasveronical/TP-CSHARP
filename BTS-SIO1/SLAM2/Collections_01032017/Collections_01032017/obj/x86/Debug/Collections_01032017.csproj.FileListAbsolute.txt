@@ -1,0 +1,4 @@
+U:\Slam2\Collections_01032017\Collections_01032017\bin\Debug\Collections_01032017.exe
+U:\Slam2\Collections_01032017\Collections_01032017\bin\Debug\Collections_01032017.pdb
+U:\Slam2\Collections_01032017\Collections_01032017\obj\x86\Debug\Collections_01032017.exe
+U:\Slam2\Collections_01032017\Collections_01032017\obj\x86\Debug\Collections_01032017.pdb

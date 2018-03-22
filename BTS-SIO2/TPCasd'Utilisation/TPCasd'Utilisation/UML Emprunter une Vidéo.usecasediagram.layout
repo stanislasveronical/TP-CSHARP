@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UML Emprunter une Vidéo">
+  <useCaseModelRootMoniker Id="cf49f63d-b1d1-42af-a468-e16d0f431da3" />
+  <nestedChildShapes>
+    <actorShape Id="006e324e-5fa0-4525-82ba-34dab7c609b6" absoluteBounds="1.25, 2, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="76be014a-ad1e-4203-9842-bea3262d7f6b" LastKnownName="Client" />
+      <relativeChildShapes />
+    </actorShape>
+    <commentShape Id="777ea156-1d43-4aaf-8b68-5f01d98b810c" absoluteBounds="5.875, 0.75, 3, 2.875" customColor="251, 247, 200">
+      <commentMoniker Id="660e6ec2-1dc0-466f-8a24-3dfcfb9d794c" />
+      <relativeChildShapes />
+    </commentShape>
+    <SubsystemShape Id="07381cfc-ddb7-482f-9589-54fa916fb1e5" absoluteBounds="2, 0.75, 3.125, 2.875" customColor="White">
+      <subsystemMoniker Id="85c89497-2bc5-493a-9c90-dd86bd645509" LastKnownName="Magasin de Location Vidéo" />
+      <nestedChildShapes>
+        <useCaseShape Id="bcf6a343-c479-4c0b-b0f6-0b3e4b3598d5" absoluteBounds="2.375, 1.5, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="ee9c8814-8b1f-40b8-b015-71a70ed7c01b" LastKnownName="Emprunter une Vidéo" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="04915c5e-a822-467b-8ece-f982d0eb7416" absoluteBounds="2.5, 2.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="aa97adea-98c1-4402-8228-6736ee028326" LastKnownName="Restituer une Vidéo" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="2b4cccb7-5049-43f0-8aff-dd65fdce0aa4" absoluteBounds="4, 2.125, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="3ea47553-e719-4f3b-81ed-970537b26086" LastKnownName="Rechercher une Vidéo" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 2.15909090909091); (2.47063195784841 : 1.89704292441876)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="4f207531-b082-439a-84a0-d60fb2249958" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="006e324e-5fa0-4525-82ba-34dab7c609b6" />
+        <useCaseShapeMoniker Id="bcf6a343-c479-4c0b-b0f6-0b3e4b3598d5" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <useCaseAssociationConnector edgePoints="[(1.75 : 2.39583333333333); (2.67460431327202 : 2.93518584940868)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="113, 111, 110" sourceMultiplicity="" targetMultiplicity="">
+      <associationMoniker Id="602f9f05-cf84-457c-ac80-a0194184e15a" />
+      <relativeChildShapes />
+      <nodes>
+        <actorShapeMoniker Id="006e324e-5fa0-4525-82ba-34dab7c609b6" />
+        <useCaseShapeMoniker Id="04915c5e-a822-467b-8ece-f982d0eb7416" />
+      </nodes>
+    </useCaseAssociationConnector>
+    <includeConnector edgePoints="[(3.2713119945523 : 1.90242769021242); (4.1036880054477 : 2.22257230978758)]" fixedFrom="Algorithm" fixedTo="Algorithm" customColor="Black" useCaseStereotype="«inclure»">
+      <includeMoniker Id="11db11cd-6041-4bfe-a693-6a854d93c961" />
+      <relativeChildShapes />
+      <nodes>
+        <useCaseShapeMoniker Id="bcf6a343-c479-4c0b-b0f6-0b3e4b3598d5" />
+        <useCaseShapeMoniker Id="2b4cccb7-5049-43f0-8aff-dd65fdce0aa4" />
+      </nodes>
+    </includeConnector>
+  </nestedChildShapes>
+</useCaseDiagram>

@@ -1,0 +1,10 @@
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\bin\Debug\UtiliserCompteBanquaire.exe
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\bin\Debug\UtiliserCompteBanquaire.pdb
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\bin\Debug\CompteBanquaire.dll
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\bin\Debug\CompteBanquaire.pdb
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\bin\Debug\CompteBanquaire.xml
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\obj\x86\Debug\UtiliserCompteBanquaire.csprojResolveAssemblyReference.cache
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\obj\x86\Debug\UtiliserCompteBanquaire.exe
+U:\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\obj\x86\Debug\UtiliserCompteBanquaire.pdb
+U:\SIO 1 2016-2017\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\obj\x86\Debug\UtiliserCompteBanquaire.exe
+U:\SIO 1 2016-2017\Slam2\UtiliserCompteBanquaire\UtiliserCompteBanquaire\obj\x86\Debug\UtiliserCompteBanquaire.pdb

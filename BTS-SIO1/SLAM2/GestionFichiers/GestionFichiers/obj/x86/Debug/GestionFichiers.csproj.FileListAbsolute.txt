@@ -1,0 +1,4 @@
+U:\Slam2\GestionFichiers\GestionFichiers\bin\Debug\GestionFichiers.exe
+U:\Slam2\GestionFichiers\GestionFichiers\bin\Debug\GestionFichiers.pdb
+U:\Slam2\GestionFichiers\GestionFichiers\obj\x86\Debug\GestionFichiers.exe
+U:\Slam2\GestionFichiers\GestionFichiers\obj\x86\Debug\GestionFichiers.pdb
